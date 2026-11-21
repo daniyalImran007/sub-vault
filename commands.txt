@@ -1,0 +1,8 @@
+npx create-expo-app@latest --template default@sdk-54 ./
+
+npm run reset-project
+
+npx expo install react-native-reanimated react-native-worklets react-native-safe-area-context expo-system-ui
+
+
+npx expo start
